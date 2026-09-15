@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Engineer | Product Manager Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">ProductEngineer</div>
+            <nav class="nav">
+                <a href="#profile" class="nav-link active">Profile</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#metrics" class="nav-link">Metrics</a>
+                <a href="#feedback" class="nav-link">Feedback</a>
+                <a href="#pm-dashboard" class="nav-link pm-link">PM Dashboard</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="https://via.placeholder.com/120" alt="Product Engineer" class="hero-avatar">
+                <h1>Alex Morgan</h1>
+                <p class="hero-title">Senior Product Engineer</p>
+                <p class="hero-bio">Building user-centric products with clean code and data-driven decisions. Focused on delivering value through collaboration with product, design, and engineering teams.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">24</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">98%</span>
+                        <span class="stat-label">Quality Score</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">2.3</span>
+                        <span class="stat-label">Avg. Iteration Time</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="profile" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Engineer Profile</h2>
+                        <span class="badge badge-primary">Active</span>
+                    </div>
+                    <div class="profile-grid">
+                        <div class="profile-field">
+                            <label>Full Name</label>
+                            <span>Alex Morgan</span>
+                        </div>
+                        <div class="profile-field">
+                            <label>Role</label>
+                            <span>Senior Product Engineer</span>
+                        </div>
+                        <div class="profile-field">
+                            <label>Team</label>
+                            <span>Growth & Marketplace</span>
+                        </div>
+                        <div class="profile-field">
+                            <label>Experience</label>
+                            <span>5 years in product engineering</span>
+                        </div>
+                        <div class="profile-field">
+                            <label>Specialization</label>
+                            <span>Full-stack development, API design, data pipelines</span>
+                        </div>
+                        <div class="profile-field">
+                            <label>Availability</label>
+                            <span><span class="status-dot status-available"></span> Available</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Technical Skills</h2>
+                        <span class="badge badge-secondary">Updated Oct 2026</span>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Go</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Frameworks</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">FastAPI</span>
+                                <span class="skill-tag">GraphQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">GitHub Actions</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Product</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag">A/B Testing</span>
+                                <span class="skill-tag">Analytics</span>
+                                <span class="skill-tag">JIRA</span>
+                                <span class="skill-tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Active Projects</h2>
+                        <button class="btn btn-outline">View All</button>
+                    </div>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Checkout Optimization</h3>
+                                <span class="project-status status-in-progress">In Progress</span>
+                            </div>
+                            <p class="project-desc">Reducing cart abandonment by 15% through streamlined checkout flow and improved payment integration.</p>
+                            <div class="project-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="progress-text">65% complete</span>
+                            </div>
+                            <div class="project-meta">
+                                <span class="project-owner">Lead: Alex Morgan</span>
+                                <span class="project-deadline">Due: Oct 20, 2026</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-header">
+                                <h3>Real-time Analytics Dashboard</h3>
+                                <span class="project-status status-planning">Planning</span>
+                            </div>
+                            <p class="project-desc">Building a real-time analytics dashboard for product managers to track KPIs and user engagement metrics.</p>
+                            <div class="project-meta">
+                                <span class="project-owner">Lead: Sarah Chen (PM)</span>
+                                <span class="project-deadline">Start: Nov 1, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="metrics" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Performance Metrics</h2>
+                        <span class="badge badge-success">On Track</span>
+                    </div>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Deployment Frequency</span>
+                                <span class="metric-trend trend-up">↗</span>
+                            </div>
+                            <div class="metric-value">4.2/day</div>
+                            <div class="metric-change">+12% from last month</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Lead Time</span>
+                                <span class="metric-trend trend-down">↘</span>
+                            </div>
+                            <div class="metric-value">2.3 hrs</div>
+                            <div class="metric-change">-8% from last month</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Change Fail Rate</span>
+                                <span class="metric-trend trend-down">↘</span>
+                            </div>
+                            <div class="metric-value">1.8%</div>
+                            <div class="metric-change">Below target (3%)</div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">MTTR</span>
+                                <span class="metric-trend trend-down">↘</span>
+                            </div>
+                            <div class="metric-value">45 min</div>
+                            <div class="metric-change">Within SLA (1 hr)</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="feedback" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Feedback & Reviews</h2>
+                        <button class="btn btn-outline">Add Feedback</button>
+                    </div>
+                    <div class="feedback-list">
+                        <div class="feedback-item">
+                            <div class="feedback-author">Sarah Chen (Product Manager)</div>
+                            <div class="feedback-rating">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                            <div class="feedback-text">"Alex consistently delivers high-quality code with excellent communication. The checkout optimization project was completed ahead of schedule with clear documentation. Highly recommend for future product initiatives."</div>
+                            <div class="feedback-date">2 weeks ago</div>
+                        </div>
+                        <div class="feedback-item">
+                            <div class="feedback-author">Michael Torres (Engineering Lead)</div>
+                            <div class="feedback-rating">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star">☆</span>
+                            </div>
+                            <div class="feedback-text">"Strong technical skills and attention to detail. Could improve on cross-team collaboration for broader product context alignment."</div>
+                            <div class="feedback-date">1 month ago</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pm-dashboard" class="section">
+                <div class="card">
+                    <div class="section-header">
+                        <h2>Product Manager Dashboard</h2>
+                        <span class="badge badge-warning">Action Required</span>
+                    </div>
+                    <div class="pm-actions">
+                        <div class="action-card">
+                            <h3>Prioritize Backlog</h3>
+                            <p>Review and prioritize upcoming features for Q4 roadmap.</p>
+                            <button class="btn btn-primary">Open Board</button>
+                        </div>
+                        <div class="action-card">
+                            <h3>Schedule Retro</h3>
+                            <p>Organize sprint retrospective for Checkout Optimization project.</p>
+                            <button class="btn btn-outline">Schedule</button>
+                        </div>
+                        <div class="action-card">
+                            <h3>Resource Planning</h3>
+                            <p>Allocate engineering resources for upcoming initiatives.</p>
+                            <button class="btn btn-outline">View Resources</button>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <h3>Upcoming Milestones</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Oct 20, 2026</div>
+                            <div class="timeline-content">Checkout Optimization goes live</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Nov 1, 2026</div>
+                            <div class="timeline-content">Start Real-time Analytics Dashboard development</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Nov 15, 2026</div>
+                            <div class="timeline-content">Q4 planning with engineering team</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Product Engineer Dashboard. Managed by Product Team.</p>
+        </div>
+    </footer>
+</body>
+</html>
